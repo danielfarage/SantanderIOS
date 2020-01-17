@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F72B00E23CFE31900A178B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72B00C23CFE31900A178B8 /* HomeViewController.swift */; };
+		2F72B00F23CFE31900A178B8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F72B00D23CFE31900A178B8 /* HomeViewController.xib */; };
 		2FBD2C2023C3FF82009B9636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD2C1F23C3FF82009B9636 /* AppDelegate.swift */; };
 		2FBD2C2223C3FF83009B9636 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2123C3FF83009B9636 /* SceneDelegate.swift */; };
-		2FBD2C2423C3FF83009B9636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2323C3FF83009B9636 /* ViewController.swift */; };
-		2FBD2C2723C3FF83009B9636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2523C3FF83009B9636 /* Main.storyboard */; };
 		2FBD2C2923C3FF84009B9636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2823C3FF84009B9636 /* Assets.xcassets */; };
 		2FBD2C2C23C3FF84009B9636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2A23C3FF84009B9636 /* LaunchScreen.storyboard */; };
 		2FBD2C3723C3FF84009B9636 /* SantanderIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD2C3623C3FF84009B9636 /* SantanderIOSTests.swift */; };
@@ -27,11 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F72B00C23CFE31900A178B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2F72B00D23CFE31900A178B8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		2FBD2C1C23C3FF82009B9636 /* SantanderIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SantanderIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBD2C1F23C3FF82009B9636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FBD2C2123C3FF83009B9636 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FBD2C2323C3FF83009B9636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FBD2C2623C3FF83009B9636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FBD2C2823C3FF84009B9636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FBD2C2B23C3FF84009B9636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FBD2C2D23C3FF84009B9636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +58,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F72B00623CFE15B00A178B8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2F72B00A23CFE2C700A178B8 /* Features */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2F72B00723CFE17300A178B8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2F72B00823CFE17C00A178B8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2F72B00923CFE19400A178B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD2C2A23C3FF84009B9636 /* LaunchScreen.storyboard */,
+				2FBD2C2823C3FF84009B9636 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F72B00A23CFE2C700A178B8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2F72B00B23CFE2D900A178B8 /* HomeScreen */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2F72B00B23CFE2D900A178B8 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F72B01123CFE32C00A178B8 /* ViewController */,
+				2F72B01023CFE32200A178B8 /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		2F72B01023CFE32200A178B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F72B00D23CFE31900A178B8 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F72B01123CFE32C00A178B8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F72B00C23CFE31900A178B8 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		2FBD2C1323C3FF82009B9636 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +143,12 @@
 		2FBD2C1E23C3FF82009B9636 /* SantanderIOS */ = {
 			isa = PBXGroup;
 			children = (
+				2F72B00923CFE19400A178B8 /* Resources */,
+				2F72B00823CFE17C00A178B8 /* Data */,
+				2F72B00723CFE17300A178B8 /* Domain */,
+				2F72B00623CFE15B00A178B8 /* Presentation */,
 				2FBD2C1F23C3FF82009B9636 /* AppDelegate.swift */,
 				2FBD2C2123C3FF83009B9636 /* SceneDelegate.swift */,
-				2FBD2C2323C3FF83009B9636 /* ViewController.swift */,
-				2FBD2C2523C3FF83009B9636 /* Main.storyboard */,
-				2FBD2C2823C3FF84009B9636 /* Assets.xcassets */,
-				2FBD2C2A23C3FF84009B9636 /* LaunchScreen.storyboard */,
 				2FBD2C2D23C3FF84009B9636 /* Info.plist */,
 			);
 			path = SantanderIOS;
@@ -182,7 +246,7 @@
 			files = (
 				2FBD2C2C23C3FF84009B9636 /* LaunchScreen.storyboard in Resources */,
 				2FBD2C2923C3FF84009B9636 /* Assets.xcassets in Resources */,
-				2FBD2C2723C3FF83009B9636 /* Main.storyboard in Resources */,
+				2F72B00F23CFE31900A178B8 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBD2C2423C3FF83009B9636 /* ViewController.swift in Sources */,
 				2FBD2C2023C3FF82009B9636 /* AppDelegate.swift in Sources */,
 				2FBD2C2223C3FF83009B9636 /* SceneDelegate.swift in Sources */,
+				2F72B00E23CFE31900A178B8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2FBD2C2523C3FF83009B9636 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FBD2C2623C3FF83009B9636 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FBD2C2A23C3FF84009B9636 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -371,7 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.farage.SantanderIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.farage.SantanderIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
