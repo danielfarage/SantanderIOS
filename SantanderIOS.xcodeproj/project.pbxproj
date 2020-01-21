@@ -14,6 +14,8 @@
 		2FBD2C2923C3FF84009B9636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2823C3FF84009B9636 /* Assets.xcassets */; };
 		2FBD2C2C23C3FF84009B9636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2A23C3FF84009B9636 /* LaunchScreen.storyboard */; };
 		2FBD2C3723C3FF84009B9636 /* SantanderIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD2C3623C3FF84009B9636 /* SantanderIOSTests.swift */; };
+		2FF9652023D6929700288293 /* StatementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9651E23D6929700288293 /* StatementsViewController.swift */; };
+		2FF9652123D6929700288293 /* StatementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9651F23D6929700288293 /* StatementsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		2FBD2C3223C3FF84009B9636 /* SantanderIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantanderIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBD2C3623C3FF84009B9636 /* SantanderIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantanderIOSTests.swift; sourceTree = "<group>"; };
 		2FBD2C3823C3FF84009B9636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF9651E23D6929700288293 /* StatementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsViewController.swift; sourceTree = "<group>"; };
+		2FF9651F23D6929700288293 /* StatementsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatementsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		2F72B00A23CFE2C700A178B8 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2FF9651D23D6927600288293 /* StatementsScreen */,
 				2F72B00B23CFE2D900A178B8 /* HomeScreen */,
 			);
 			path = Features;
@@ -100,26 +105,10 @@
 		2F72B00B23CFE2D900A178B8 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				2F72B01123CFE32C00A178B8 /* ViewController */,
-				2F72B01023CFE32200A178B8 /* View */,
-			);
-			path = HomeScreen;
-			sourceTree = "<group>";
-		};
-		2F72B01023CFE32200A178B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				2F72B00C23CFE31900A178B8 /* HomeViewController.swift */,
 				2F72B00D23CFE31900A178B8 /* HomeViewController.xib */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2F72B01123CFE32C00A178B8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2F72B00C23CFE31900A178B8 /* HomeViewController.swift */,
-			);
-			path = ViewController;
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 		2FBD2C1323C3FF82009B9636 = {
@@ -161,6 +150,15 @@
 				2FBD2C3823C3FF84009B9636 /* Info.plist */,
 			);
 			path = SantanderIOSTests;
+			sourceTree = "<group>";
+		};
+		2FF9651D23D6927600288293 /* StatementsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2FF9651E23D6929700288293 /* StatementsViewController.swift */,
+				2FF9651F23D6929700288293 /* StatementsViewController.xib */,
+			);
+			path = StatementsScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF9652123D6929700288293 /* StatementsViewController.xib in Resources */,
 				2FBD2C2C23C3FF84009B9636 /* LaunchScreen.storyboard in Resources */,
 				2FBD2C2923C3FF84009B9636 /* Assets.xcassets in Resources */,
 				2F72B00F23CFE31900A178B8 /* HomeViewController.xib in Resources */,
@@ -264,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF9652023D6929700288293 /* StatementsViewController.swift in Sources */,
 				2FBD2C2023C3FF82009B9636 /* AppDelegate.swift in Sources */,
 				2FBD2C2223C3FF83009B9636 /* SceneDelegate.swift in Sources */,
 				2F72B00E23CFE31900A178B8 /* HomeViewController.swift in Sources */,
