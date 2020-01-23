@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,18 @@
 		2FBD2C2923C3FF84009B9636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2823C3FF84009B9636 /* Assets.xcassets */; };
 		2FBD2C2C23C3FF84009B9636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD2C2A23C3FF84009B9636 /* LaunchScreen.storyboard */; };
 		2FBD2C3723C3FF84009B9636 /* SantanderIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD2C3623C3FF84009B9636 /* SantanderIOSTests.swift */; };
+		2FEC24F323D9328C004F8AEC /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC24F223D9328C004F8AEC /* HomeContract.swift */; };
+		2FEC24F523D93678004F8AEC /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC24F423D93678004F8AEC /* HomePresenter.swift */; };
+		2FEC24F723D93686004F8AEC /* HomeInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC24F623D93686004F8AEC /* HomeInterector.swift */; };
+		2FEC24F923D93692004F8AEC /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC24F823D93692004F8AEC /* HomeRouter.swift */; };
+		2FEC24FB23D93713004F8AEC /* StatementsContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC24FA23D93713004F8AEC /* StatementsContract.swift */; };
+		2FEC24FD23D9371F004F8AEC /* StatementsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC24FC23D9371F004F8AEC /* StatementsPresenter.swift */; };
+		2FEC24FF23D93729004F8AEC /* StatementsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC24FE23D93729004F8AEC /* StatementsInterector.swift */; };
+		2FEC250123D93737004F8AEC /* StatementsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC250023D93737004F8AEC /* StatementsRouter.swift */; };
 		2FF9652023D6929700288293 /* StatementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9651E23D6929700288293 /* StatementsViewController.swift */; };
 		2FF9652123D6929700288293 /* StatementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9651F23D6929700288293 /* StatementsViewController.xib */; };
+		A851C8A15F2A18AFF2E766F1 /* Pods_SantanderIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21C1446F7A3AA82729B7612 /* Pods_SantanderIOS.framework */; };
+		ABF3CABAA346DF7F01A6133D /* Pods_SantanderIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B6E1FEDD449C5CB0794D7A /* Pods_SantanderIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B6E1FEDD449C5CB0794D7A /* Pods_SantanderIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SantanderIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26821DB8900513E2E6EA1A3E /* Pods-SantanderIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantanderIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SantanderIOSTests/Pods-SantanderIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F72B00C23CFE31900A178B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2F72B00D23CFE31900A178B8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		2FBD2C1C23C3FF82009B9636 /* SantanderIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SantanderIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,8 +52,20 @@
 		2FBD2C3223C3FF84009B9636 /* SantanderIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantanderIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBD2C3623C3FF84009B9636 /* SantanderIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantanderIOSTests.swift; sourceTree = "<group>"; };
 		2FBD2C3823C3FF84009B9636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEC24F223D9328C004F8AEC /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		2FEC24F423D93678004F8AEC /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		2FEC24F623D93686004F8AEC /* HomeInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterector.swift; sourceTree = "<group>"; };
+		2FEC24F823D93692004F8AEC /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		2FEC24FA23D93713004F8AEC /* StatementsContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsContract.swift; sourceTree = "<group>"; };
+		2FEC24FC23D9371F004F8AEC /* StatementsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsPresenter.swift; sourceTree = "<group>"; };
+		2FEC24FE23D93729004F8AEC /* StatementsInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsInterector.swift; sourceTree = "<group>"; };
+		2FEC250023D93737004F8AEC /* StatementsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsRouter.swift; sourceTree = "<group>"; };
 		2FF9651E23D6929700288293 /* StatementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsViewController.swift; sourceTree = "<group>"; };
 		2FF9651F23D6929700288293 /* StatementsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatementsViewController.xib; sourceTree = "<group>"; };
+		856BA20A5047B6240AD2A91B /* Pods-SantanderIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantanderIOS.debug.xcconfig"; path = "Target Support Files/Pods-SantanderIOS/Pods-SantanderIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		98A5C37A53EA446E11E51FA4 /* Pods-SantanderIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantanderIOSTests.release.xcconfig"; path = "Target Support Files/Pods-SantanderIOSTests/Pods-SantanderIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B21C1446F7A3AA82729B7612 /* Pods_SantanderIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SantanderIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A5E5A3BF1FC93F863ACEBD /* Pods-SantanderIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantanderIOS.release.xcconfig"; path = "Target Support Files/Pods-SantanderIOS/Pods-SantanderIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A851C8A15F2A18AFF2E766F1 /* Pods_SantanderIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,27 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF3CABAA346DF7F01A6133D /* Pods_SantanderIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F72B00623CFE15B00A178B8 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				2F72B00A23CFE2C700A178B8 /* Features */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		2F72B00723CFE17300A178B8 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
 		2F72B00823CFE17C00A178B8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +118,10 @@
 			children = (
 				2F72B00C23CFE31900A178B8 /* HomeViewController.swift */,
 				2F72B00D23CFE31900A178B8 /* HomeViewController.xib */,
+				2FEC24F223D9328C004F8AEC /* HomeContract.swift */,
+				2FEC24F423D93678004F8AEC /* HomePresenter.swift */,
+				2FEC24F623D93686004F8AEC /* HomeInterector.swift */,
+				2FEC24F823D93692004F8AEC /* HomeRouter.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -117,6 +132,8 @@
 				2FBD2C1E23C3FF82009B9636 /* SantanderIOS */,
 				2FBD2C3523C3FF84009B9636 /* SantanderIOSTests */,
 				2FBD2C1D23C3FF82009B9636 /* Products */,
+				CFBC008753A8E0B1B5E39147 /* Pods */,
+				42C1F7636078C0F4DB102999 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,13 +149,10 @@
 		2FBD2C1E23C3FF82009B9636 /* SantanderIOS */ = {
 			isa = PBXGroup;
 			children = (
+				2FEC24F123D9323F004F8AEC /* App */,
 				2F72B00923CFE19400A178B8 /* Resources */,
 				2F72B00823CFE17C00A178B8 /* Data */,
-				2F72B00723CFE17300A178B8 /* Domain */,
-				2F72B00623CFE15B00A178B8 /* Presentation */,
-				2FBD2C1F23C3FF82009B9636 /* AppDelegate.swift */,
-				2FBD2C2123C3FF83009B9636 /* SceneDelegate.swift */,
-				2FBD2C2D23C3FF84009B9636 /* Info.plist */,
+				2F72B00A23CFE2C700A178B8 /* Features */,
 			);
 			path = SantanderIOS;
 			sourceTree = "<group>";
@@ -152,13 +166,47 @@
 			path = SantanderIOSTests;
 			sourceTree = "<group>";
 		};
+		2FEC24F123D9323F004F8AEC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD2C2D23C3FF84009B9636 /* Info.plist */,
+				2FBD2C1F23C3FF82009B9636 /* AppDelegate.swift */,
+				2FBD2C2123C3FF83009B9636 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		2FF9651D23D6927600288293 /* StatementsScreen */ = {
 			isa = PBXGroup;
 			children = (
 				2FF9651E23D6929700288293 /* StatementsViewController.swift */,
 				2FF9651F23D6929700288293 /* StatementsViewController.xib */,
+				2FEC24FA23D93713004F8AEC /* StatementsContract.swift */,
+				2FEC24FC23D9371F004F8AEC /* StatementsPresenter.swift */,
+				2FEC24FE23D93729004F8AEC /* StatementsInterector.swift */,
+				2FEC250023D93737004F8AEC /* StatementsRouter.swift */,
 			);
 			path = StatementsScreen;
+			sourceTree = "<group>";
+		};
+		42C1F7636078C0F4DB102999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21C1446F7A3AA82729B7612 /* Pods_SantanderIOS.framework */,
+				12B6E1FEDD449C5CB0794D7A /* Pods_SantanderIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFBC008753A8E0B1B5E39147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				856BA20A5047B6240AD2A91B /* Pods-SantanderIOS.debug.xcconfig */,
+				E6A5E5A3BF1FC93F863ACEBD /* Pods-SantanderIOS.release.xcconfig */,
+				26821DB8900513E2E6EA1A3E /* Pods-SantanderIOSTests.debug.xcconfig */,
+				98A5C37A53EA446E11E51FA4 /* Pods-SantanderIOSTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FBD2C3B23C3FF84009B9636 /* Build configuration list for PBXNativeTarget "SantanderIOS" */;
 			buildPhases = (
+				E39EF695F4AAE37D700A84C5 /* [CP] Check Pods Manifest.lock */,
 				2FBD2C1823C3FF82009B9636 /* Sources */,
 				2FBD2C1923C3FF82009B9636 /* Frameworks */,
 				2FBD2C1A23C3FF82009B9636 /* Resources */,
+				4787D00E01CE313BB1E44C28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FBD2C3E23C3FF84009B9636 /* Build configuration list for PBXNativeTarget "SantanderIOSTests" */;
 			buildPhases = (
+				1254CF29B0E38B0CA1E766B9 /* [CP] Check Pods Manifest.lock */,
 				2FBD2C2E23C3FF84009B9636 /* Sources */,
 				2FBD2C2F23C3FF84009B9636 /* Frameworks */,
 				2FBD2C3023C3FF84009B9636 /* Resources */,
@@ -258,6 +309,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1254CF29B0E38B0CA1E766B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SantanderIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4787D00E01CE313BB1E44C28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SantanderIOS/Pods-SantanderIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SantanderIOS/Pods-SantanderIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SantanderIOS/Pods-SantanderIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39EF695F4AAE37D700A84C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SantanderIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FBD2C1823C3FF82009B9636 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,8 +380,16 @@
 			files = (
 				2FF9652023D6929700288293 /* StatementsViewController.swift in Sources */,
 				2FBD2C2023C3FF82009B9636 /* AppDelegate.swift in Sources */,
+				2FEC250123D93737004F8AEC /* StatementsRouter.swift in Sources */,
+				2FEC24F323D9328C004F8AEC /* HomeContract.swift in Sources */,
+				2FEC24FF23D93729004F8AEC /* StatementsInterector.swift in Sources */,
+				2FEC24F523D93678004F8AEC /* HomePresenter.swift in Sources */,
+				2FEC24FD23D9371F004F8AEC /* StatementsPresenter.swift in Sources */,
 				2FBD2C2223C3FF83009B9636 /* SceneDelegate.swift in Sources */,
+				2FEC24F923D93692004F8AEC /* HomeRouter.swift in Sources */,
 				2F72B00E23CFE31900A178B8 /* HomeViewController.swift in Sources */,
+				2FEC24F723D93686004F8AEC /* HomeInterector.swift in Sources */,
+				2FEC24FB23D93713004F8AEC /* StatementsContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +539,7 @@
 		};
 		2FBD2C3C23C3FF84009B9636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856BA20A5047B6240AD2A91B /* Pods-SantanderIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,6 +557,7 @@
 		};
 		2FBD2C3D23C3FF84009B9636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A5E5A3BF1FC93F863ACEBD /* Pods-SantanderIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +575,7 @@
 		};
 		2FBD2C3F23C3FF84009B9636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26821DB8900513E2E6EA1A3E /* Pods-SantanderIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +597,7 @@
 		};
 		2FBD2C4023C3FF84009B9636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A5C37A53EA446E11E51FA4 /* Pods-SantanderIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
